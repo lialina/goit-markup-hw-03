@@ -166,7 +166,7 @@ ul {
 }
 
 .hero-title {
-  padding: 200px 237px 0px;
+  margin: 200px 237px 0px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -216,7 +216,6 @@ ul {
   display: flex;
   padding: 94px 0;
   flex-basis: (calc(100% - 90px) / 4);
-  margin-right: 30px;
 }
 
 .adv-item:not(:last-child) {
@@ -256,7 +255,7 @@ ul {
 }
 
 .team-title {
-  padding-top: 94px;
+  margin-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
