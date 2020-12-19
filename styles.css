@@ -298,6 +298,11 @@ ul {
   color: var(--second-text-color);
 }
 
+/* Portfolio footer */
+.container.nav-portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
 /* Portfolio main */
 /* Filter */
 .filter .button {
