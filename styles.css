@@ -92,8 +92,9 @@ ul {
 }
 
 .header .logo {
+  display: flex;
+  align-items: center;
   margin-right: 93px;
-  padding-top: 24px;
 }
 
 .all-nav {
