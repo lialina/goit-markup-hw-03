@@ -154,6 +154,7 @@ ul {
 /* Hero */
 .hero {
   text-align: center;
+  padding: 200px 0;
 
   background-color: var(--dark-background-color);
 }
@@ -166,7 +167,6 @@ ul {
 }
 
 .hero-title {
-  margin: 200px 237px 0px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -180,7 +180,6 @@ ul {
 
 .hero-button {
   padding: 10px 32px;
-  margin-bottom: 200px;
   border-radius: 4px;
 
   font-family: inherit;
@@ -197,6 +196,10 @@ ul {
 }
 
 /* Advantages*/
+section.advantages {
+  padding: 94px 0;
+}
+
 .advantages-title {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -214,8 +217,7 @@ ul {
 
 .advantages.list {
   display: flex;
-  padding: 94px 0;
-  flex-basis: (calc(100% - 90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .adv-item:not(:last-child) {
@@ -230,7 +232,13 @@ ul {
 }
 
 /* Specialty */
+section.specialty {
+  padding-bottom: 94px;
+}
+
 .specialty-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -239,7 +247,6 @@ ul {
 
 .specialty.list {
   display: flex;
-  padding: 50px 0 94px;
 }
 
 .spec-item:not(:last-child) {
@@ -247,6 +254,9 @@ ul {
 }
 
 /* Team */
+section.team {
+  padding: 94px 0;
+}
 
 .team {
   background-color: #f5f4fa;
@@ -255,7 +265,6 @@ ul {
 }
 
 .team-title {
-  margin-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -274,7 +283,6 @@ ul {
 
 .worker-item {
   background-color: var(--main-background-color);
-  margin-bottom: 94px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -297,16 +305,18 @@ ul {
   color: var(--second-text-color);
 }
 
-/* Portfolio footer */
-.container.nav-portfolio {
+/* Portfolio header */
+.header.portfolio {
   border-bottom: 1px solid #ececec;
 }
 
 /* Portfolio main */
+.filter-and-examples {
+  padding: 94px 0;
+}
+
 /* Filter */
 .filter .button {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
@@ -324,7 +334,6 @@ ul {
 .filter.list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
   flex-wrap: wrap;
 }
@@ -337,6 +346,8 @@ ul {
 .filter .button:hover {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Work examples */
@@ -351,7 +362,6 @@ ul {
 .examples.list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .example-item {
@@ -369,13 +379,13 @@ ul {
 }
 
 .example-text {
+  padding: 20px 0 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
 
 .examples h2 {
-  padding-left: 24px;
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -385,9 +395,6 @@ ul {
 }
 
 .examples p {
-  padding-left: 24px;
-  margin-bottom: 20px;
-
   font-size: 16px;
   line-height: 1.9;
 
@@ -395,19 +402,19 @@ ul {
 }
 
 /* Common footer */
-.footer {
+
+.footer-section {
+  padding: 60px 0;
   background-color: var(--dark-background-color);
 }
 
 .footer .logo {
   display: inline-block;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .footer.list {
   padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 .footer-item:not(:last-child) {
